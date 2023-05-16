@@ -46,6 +46,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@lhci/cli": "^0.12.0",
     "lodash": "^4.17.21"
   }
 }
