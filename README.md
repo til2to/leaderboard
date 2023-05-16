@@ -19,9 +19,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To_Do_List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-**[milestone-books]** is a basic web application that allows users to add/remove tasks to and from a list of tasks
+**[milestone-books]** is a basic web application that allows users to add a player name and score to a database. Users send and retrieve data. 
 
 ## 🛠 Built With <a name="built-with"></a>
 - **[Html]**
@@ -34,8 +34,9 @@
 
 - **[Plain_JS_with_functions]**
 - **[Plain_JS_with_webpack_bundlers]**
-- **[Create_remove_and_clear_tasks]**
-- **[update_and_clear_all_completed_tasks]**
+- **[Send_player's_name_and_score]**
+- **[Retrieve_data_of_records_about_the_data_you_send]**
+- **[Implemented_a_third_party_endpoint]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -43,7 +44,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://til2to.github.io/todo-list/dist/)
+- [Live Demo Link](Coming Soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,7 +57,7 @@ To get a local copy up and running, follow these steps.
 1. install git 
 2. Clone the project from the repository, "git clone address"
 3. run "npm i" to install all dependencies and node modules
-4. Open it with the live server
+4. run "npm start" to start the app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,20 +70,15 @@ To get a local copy up and running, follow these steps.
 - GitHub: [@githubhandle](https://github.com/til2to)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dennis-owusu-835888206/)
 
-👤 **Racha OULDBABAALI**
-
-- GitHub: [@githubhandle](https://github.com/rachaouldbabaali)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/racha-ouldbabaali-25122877/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Create_a_complete_todo_List_app]**
-- **[Make_it_more_colorful]**
-- **[Include_couple_of_animations]**
+- **[Implemented_third_party_endpoints_for_sending_and_data]**
+- **[Codebase_is_structured_into_modules]**
+- **[JavaScript_was_used_to_render_the_table_of_the_layout]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
