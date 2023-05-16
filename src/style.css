@@ -1,28 +1,5 @@
-
-/* THIS IS DETECTED BY LIGHTHOUSE AS EVENTUALLY BEING VISIBLE */
 body {
-  /* default opacity of 1, if animation is not supported */
-  opacity: 1;
   margin: 10%;
-  animation-name: fadeIn;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
-}
-
-@keyframes fadeIn {
-  0% {
-      opacity: 0.01;
-  }
-  1% {
-      opacity: 0;
-  }
-  50% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-  }
 }
 
 h1 {
@@ -35,8 +12,6 @@ main {
 
 #score-view {
   display: flex;
-
-  /* width: 80%; */
 }
 
 #title-and-table {
