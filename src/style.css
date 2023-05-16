@@ -1,0 +1,90 @@
+body {
+  margin: 10%;
+}
+
+h1 {
+  margin-bottom: 3%;
+}
+
+main {
+  margin-left: 25px;
+}
+
+#score-view {
+  display: flex;
+
+  /* width: 80%; */
+}
+
+#title-and-table {
+  width: 100%;
+  margin-right: 2.5%;
+}
+
+.score-title {
+  display: flex;
+
+  /* margin-bottom: 7%; */
+}
+
+.score-title h2 {
+  margin: 0;
+}
+
+.score-title-refresh-button {
+  margin-left: 10px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.player-score {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.player-score-container {
+  margin: 3px;
+  padding: 0;
+}
+
+.player-score-container > li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.player-score-container > li:nth-child(odd) {
+  background-color: white;
+}
+
+.player-score-container > li:nth-child(even) {
+  background-color: #ddd;
+}
+
+#form-section {
+  width: 100%;
+  margin-left: 2.5%;
+}
+
+#form-section h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: none;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+  margin-top: 5px;
+}
+
+form > button {
+  padding: 5px;
+  width: 100px;
+  margin-top: 5px;
+}
