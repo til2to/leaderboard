@@ -1,7 +1,6 @@
 import './style.css';
 import viewScoreBoard from './modules/scoreView.js';
 
-const scoreContainer = document.querySelector('.player-score-container');
 const playerScores = [
   { name: 'name', score: 100 },
   { name: 'name', score: 20 },
