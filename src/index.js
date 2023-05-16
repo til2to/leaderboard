@@ -13,7 +13,7 @@ const playerScores = [
 ];
 
 // dynamically populate todo player name and score
-const viewScoreBoard = (playerScores) => {
+const viewScoreBoard = () => {
   let score = '';
   playerScores.forEach((player) => {
     score += `
