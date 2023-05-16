@@ -1,5 +1,5 @@
 import './style.css';
-// import viewScoreBoard from './modules/scoreView.js';
+import viewScoreBoard from './modules/scoreView.js';
 
 const scoreContainer = document.querySelector('.player-score-container');
 const playerScores = [
@@ -13,16 +13,4 @@ const playerScores = [
 ];
 
 // dynamically populate todo player name and score
-const viewScoreBoard = () => {
-  let score = '';
-  playerScores.forEach((player) => {
-    score += `
-      <li class="each-player">
-        ${player.name}: ${player.score}
-      </li>
-    `;
-  });
-  scoreContainer.innerHTML = score;
-};
-
-viewScoreBoard();
+viewScoreBoard(playerScores);
