@@ -7,6 +7,7 @@ const scoreInput = document.querySelector('.score-input');
 const submitButton = document.querySelector('.add-score-btn');
 const refreshButton = document.querySelector('.score-title-refresh-button');
 const scoreContainer = document.querySelector('.player-score-container');
+const scoreError = document.getElementById('score-error');
 
 if (JSON.parse(localStorage.getItem('game')) === null || JSON.parse(localStorage.getItem('game')) === undefined) {
   localStorage.setItem('game', JSON.stringify([]));
@@ -61,6 +62,13 @@ submitButton.addEventListener('click', async (e) => {
     score,
   };
   try {
+    // validate by name if player exist
+    const isExistingPlayer = playerScores.some((player) => player.user === username);
+    // validate the form submission
+    if(!score || !username || isExistingPlayer) {
+      e.preventDefault()
+      scoreError.textContent = 'Please fill in the fields or player already exist'; // Display error message
+    }
     await gameRecords(data, gameId);
     playerScores.push(data); // Add the new score to the local array
     viewScoreBoard(playerScores);
