@@ -49,6 +49,10 @@ main {
   font-size: 18px;
 }
 
+#no-records {
+  color: red;
+}
+
 .player-score-container > li:nth-child(odd) {
   background-color: white;
 }
