@@ -19,7 +19,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To_Do_List] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
 **[milestone-books]** is a basic web application that allows users to add/remove tasks to and from a list of tasks
 
@@ -120,5 +120,3 @@ I would like to also thank my code reviewers for their feedbacks.
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
