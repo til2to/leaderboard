@@ -15,7 +15,7 @@ if (JSON.parse(localStorage.getItem('game')) === null || JSON.parse(localStorage
 
 let playerScores = JSON.parse(localStorage.getItem('game'));
 
-// handle when the collection/array of game is empty
+// When the collection/array of game is empty
 document.addEventListener('DOMContentLoaded', () => {
   const showMessage = (message) => {
     const messageElement = document.createElement('div');
@@ -46,11 +46,11 @@ const getDataFromLocalStorage = async (key) => {
   }
 })();
 
-// dynamically populate todo player name and score
+// dynamically populate player(s) name(s) and score(s)
 viewScoreBoard(playerScores);
 
 // game id from the base url after creating a game
-const gameId = 'MkVcSNQsFB7XYopbvv08';
+const gameId = 'RjzW48SVVXfyYdn4ZcKx';
 
 // add score and player/user
 submitButton.addEventListener('click', async (e) => {
@@ -65,8 +65,8 @@ submitButton.addEventListener('click', async (e) => {
     // validate by name if player exist
     const isExistingPlayer = playerScores.some((player) => player.user === username);
     // validate the form submission
-    if(!score || !username || isExistingPlayer) {
-      e.preventDefault()
+    if (!score || !username || isExistingPlayer) {
+      e.preventDefault();
       scoreError.textContent = 'Please fill in the fields or player already exist'; // Display error message
     }
     await gameRecords(data, gameId);
