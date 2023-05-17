@@ -116,5 +116,3 @@ I would like to also thank my code reviewers for their feedbacks.
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
