@@ -1,12 +1,11 @@
-const scoreContainer = document.querySelector('.player-score-container');
-
-// dynamically populate todo player name and score
+// render the table content
 const viewScoreBoard = (playerScores) => {
+  const scoreContainer = document.querySelector('.player-score-container');
   let score = '';
   playerScores.forEach((player) => {
     score += `
       <li class="each-player">
-        ${player.name}: ${player.score}
+        ${player.user}: ${player.score}
       </li>
     `;
   });
